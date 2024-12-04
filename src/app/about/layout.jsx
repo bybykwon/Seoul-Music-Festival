@@ -1,14 +1,15 @@
-import Footer from '@/components/layout/Footer'
-import Header from '@/components/layout/Header'
 import React from 'react'
+import Footer from '@/components/layout/Footer'
+import Header from '@/components/layout/header/Header'
+import Main from '@/components/layout/Main'
 
-const AboutLayout = ({ children }) => {
+const AboutLayout = ({children}) => {
   return (
-    <div>
+    <>
       <Header />
-      <main>{ children }</main>
+      <Main>{children}</Main>
       <Footer />
-    </div>
+    </>
   )
 }
 

@@ -1,0 +1,189 @@
+#oneScroll {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 11;
+    perspective: 1000px;
+    overflow-y: hidden;
+
+    .page {
+        width: 1280px;
+        height: 1080px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        // margin: 100px 0 0 0px;
+        // // transform: translateZ(100em);
+        // opacity: 0;
+        // transform-style: preserve-3d;
+
+        &.on {
+            opacity: 1;
+            z-index: 10;
+            transform: translateZ(0px);
+        }
+    }
+}
+
+.page .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: -2;
+    transform: translate(-50%, 0);
+}
+
+.page01 .bg img {
+    width: 100%;
+}
+
+.page .bg img {
+    width: 100%;
+}
+
+#page-1 {
+    background: #f17fff;
+    z-index: 10;
+}
+
+#oneScroll #page-1 {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+}
+
+#page-1 {
+    .box {
+        width: 100px;
+        height: 100px;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .bg {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .cloud-big {
+        position: absolute;
+        left: 6.5625rem;
+        top: 14.375rem;
+    }
+
+    .cloud-small {
+        position: absolute;
+        right: 3.125rem;
+        top: 0.625rem;
+    }
+
+    .cloud-middle {
+        position: absolute;
+        top: 55%;
+        left: 10%;
+    }
+    .cloud-middle2 {
+        position: absolute;
+        top: 35%;
+        right: 15%;
+    }
+
+    .flower_left {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .flower_right {
+        position: absolute;
+        right: 0;
+        top: 80%;
+        transform-origin: right bottom;
+        animation: flower 15s infinite alternate;
+    }
+
+    .music_green {
+        position: absolute;
+        top: 25%;
+        right: 15%;
+    }
+
+    .blue02 {
+        position: absolute;
+        left: 0%;
+        bottom: 0%;
+        z-index: 5;
+    }
+
+    .green_left {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .cat {
+        z-index: 4;
+        position: absolute;
+        right: 1.25rem;
+        bottom: 1.25rem;
+    }
+    .cat2 {
+        z-index: 4;
+        position: absolute;
+        right: 0.625rem;
+        bottom: 1.25rem;
+    }
+
+    .music_yellowpink {
+        position: absolute;
+        top: 25%;
+        left: 10%;
+    }
+
+    .city {
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .green_right {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    .main_title {
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .explore {
+        position: absolute;
+        left: 50%;
+        top: 150%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@keyframes flower {
+    to {
+        transform: rotate(5deg);
+    }
+}

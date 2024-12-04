@@ -1,11 +1,17 @@
-import Footer from "@/components/layout/Footer";
-import Header from "@/components/layout/Header";
+"use client";
 
-export default function Home() {
+import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/header/Header";
+import Main from "@/components/layout/Main";
+import Home from "./home/home";
+
+export default function Page() {
   return (
     <>
       <Header />
-      <main className="">main</main>
+      <Main>
+        <Home />
+      </Main>
       <Footer />
     </>
   );
