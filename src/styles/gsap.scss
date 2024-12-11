@@ -322,18 +322,15 @@
         z-index: -1;
         left: 0%;
         top: -130%;
-
-        text-align: center;
     }
     @media (max-width: 680px) {
         .cityback {
-            width: 144%;
+            width: 231%;
             position: absolute;
             z-index: -1;
-            left: 13%;
-            top: 35%;
-            transform: translate(-50%, -50%);
-            text-align: center;
+            left: -9%;
+            top: 12%;
+            transform: translate(-50%, -50%) scale(0.7); /* 화면 중앙 정렬 유지 */
         }
     }
 

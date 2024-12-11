@@ -35,7 +35,7 @@ export default function IntroSwiper() {
     return (
         <div className='relative w-auto h-[600px]'>
             {/* 배경 이미지 */}
-            <div className="absolute w-screen h-full bg-[url('/images/components/site_map.jpg')] bg-cover bg-center z-0"></div>
+            <div className="absolute w-screen h-[600px] bg-[url('/images/components/site_map.jpg')] bg-cover bg-center z-10"></div>
 
             {/* 콘텐츠 */}
             <div className='relative z-10 h-full'>
@@ -43,13 +43,14 @@ export default function IntroSwiper() {
                     slidesPerView={1}
                     spaceBetween={30}
                     loop={true}
+                    // navigation={true}
                     autoplay={{
                         delay: 3500, // 슬라이드가 3초마다 자동으로 전환
                         disableOnInteraction: false, // 슬라이드를 클릭해도 자동 슬라이드가 멈추지 않도록 설정
                     }}
                     speed={900}
                     modules={[Pagination, Navigation, Autoplay]}
-                    className='mySwiper h-full content-start'
+                    className='mySwiper h-full'
                 >
                     {slides.map((slide, index) => (
                         <SwiperSlide key={index}>

@@ -14,7 +14,7 @@ export const mockNews = [
         content:
             '메인 무대인 노을 스테이지(노들섬 잔디광장)에서는 매일 오후 5시께부터 유명 뮤지션들의 공연이 펼쳐진다. 인디부터 대중음악까지 다채로운 장르의 음악이 무대를 채운다. 첫째 날인 27일에는 크라잉넛, 나상현씨밴드, 브로콜리너마저, CHS가 출연해 퇴근길 직장인들의 스트레스를 날릴 공연을 선보인다. 둘째 날인 28일에는 김윤아, 김수영, 아도이(ADOY), 더픽스(THE FIX)가 무대에 올라 친구, 연인과 함께 즐기기 좋은 공연을 선보이고 마지막 날인 29일에는 케이팝 커버댄스 페스티벌과 함께 온 가족이 즐기기 좋은 빅마마, 소란, 안신애의 무대가 펼쳐진다',
         imageUrl:
-            'https://images.unsplash.com/photo-1504107435030-c7cd582601b8?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+            'https://images.unsplash.com/photo-1675313379063-3534a4424684?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
         date: '2024-11-24',
     },
     {

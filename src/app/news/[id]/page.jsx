@@ -14,7 +14,7 @@ const NewsDetail = ({ params }) => {
 
     return (
         <>
-            <h1 className='text-4xl font-bold mt-4'>{news.title}</h1>
+            <h1 className='text-4xl font-bold mt-4 truncate'>{news.title}</h1>
             <p className='text-sm text-gray-400 mt-2 block mb-10'>{news.date}</p>
             <div className='flex flex-col gap-4'>
                 <Image
@@ -24,7 +24,7 @@ const NewsDetail = ({ params }) => {
                     height={500}
                     className='w-full h-auto rounded-lg'
                 />
-                <p className='mt-4 text-lg leading-7'>{news.content}</p>
+                <p className='mt-4 text-lg leading-7 line-clamp-2'>{news.content}</p>
             </div>
         </>
     );

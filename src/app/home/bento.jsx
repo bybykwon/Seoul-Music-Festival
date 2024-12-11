@@ -7,7 +7,7 @@ export default function Bento() {
                 <h2 className='text-center text-base/7 font-bold text-violet-900  '>
                     음악이 있어 더 매력적인 도시, 서울
                 </h2>
-                <p className='mx-auto mt-2 max-w-lg text-balance text-center text-3xl font-semibold tracking-tight text-gray-900 sm:text-3xl '>
+                <p className='mx-auto mt-2 max-w-lg text-balance text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-3xl '>
                     2025 서울 뮤직페스티벌
                 </p>
                 <div className='mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2'>
