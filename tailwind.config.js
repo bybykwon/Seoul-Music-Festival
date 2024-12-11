@@ -1,30 +1,56 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: 'class',
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
-  theme: {
-    container: {
-      mawWidth: {
-        DEFAULT: "1340px",
-      },
-      px: {
-        DEFAULT: "1rem",
-        sm: "2rem",
-        md: "4rem",
-        lg: "6rem",
-        xl: "8rem",
-      },
+    darkMode: 'class',
+    content: [
+        './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+        './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+        './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    ],
+    theme: {
+        container: {
+            mawWidth: {
+                DEFAULT: '1340px',
+            },
+            px: {
+                DEFAULT: '1rem',
+                sm: '2rem',
+                md: '4rem',
+                lg: '6rem',
+                xl: '8rem',
+            },
+        },
+        extend: {
+            colors: {
+                background: 'var(--background)',
+                foreground: 'var(--foreground)',
+            },
+            animation: {
+                'slide-up-down': 'slideUpDown 2s ease-in-out infinite',
+                'slide-up': 'slideUp 2s ease-in-out',
+                'scale-down': 'scaleDown 5s ease-in-out',
+                'scale-up': 'scaleUp 5s ease-in-out',
+            },
+            keyframes: {
+                slideUpDown: {
+                    '0%': { transform: 'translateY(10px)', opacity: '1' },
+                    '50%': { transform: 'translateY(0)', opacity: '1' },
+                    '100%': { transform: 'translateY(10px)', opacity: '1' },
+                },
+                slideUp: {
+                    '0%': { transform: 'translateY(10px)', opacity: '0' },
+                    '100%': { transform: 'translateY(0)', opacity: '1' },
+                },
+                scaleDown: {
+                    '0%': { transform: 'scale(1)' },
+                    '100%': { transform: 'scale(0.8)' },
+                },
+                scaleUp: {
+                    '0%': { transform: 'scale(1)' },
+                    '100%': { transform: 'scale(1.2)' },
+                },
+            },
+        },
     },
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
-  },
-  plugins: [],
+    plugins: [],
 };
+// tailwind.config.js

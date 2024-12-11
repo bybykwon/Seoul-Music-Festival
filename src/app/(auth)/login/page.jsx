@@ -14,7 +14,7 @@ export default function LoginPage() {
             <div className='flex min-h-full flex-1 flex-col justify-center py-12 sm:px-6 lg:px-8'>
                 <div className='sm:mx-auto sm:w-full sm:max-w-md'>
                     <Image
-                        alt='Your Company'
+                        alt='seoul my soul'
                         src='/images/pattern/common/logo.png'
                         className='mx-auto h-10 w-auto'
                         width={40}

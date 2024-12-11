@@ -14,10 +14,11 @@ const Home = () => {
             <Hero />
             <WhiteFull />
             <Bento />
-            <IntroSwiper />
+            <IntroSwiper title='Programs' />
             <News
                 mockNews={mockNews}
-                title='뉴스'
+                title='보도자료'
+                class='flex items-center text-center'
             />
         </>
     );

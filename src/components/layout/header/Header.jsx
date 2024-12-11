@@ -7,10 +7,11 @@ import Navigation from './Navigation';
 import Image from 'next/image';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Dialog, DialogPanel } from '@headlessui/react';
+import { Link } from 'react-router-dom';
 
 const navigation = [
-    { name: 'SMF 소개', href: '#' },
-    { name: '라인업', href: '#' },
+    { name: 'SMF 소개', href: '/introduce' },
+    { name: '라인업', href: '/lineup' },
     { name: '프로그램', href: '#' },
     { name: '갤러리', href: '#' },
 ];

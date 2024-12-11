@@ -5,8 +5,8 @@ import { useState } from 'react';
 import Image from 'next/image';
 
 const navigation = [
-    { name: 'SMF 소개', href: '#' },
-    { name: '라인업', href: '#' },
+    { name: 'SMF 소개', href: 'introduce' },
+    { name: '라인업', href: 'lineup' },
     { name: '프로그램', href: '#' },
     { name: '갤러리', href: '#' },
 ];
