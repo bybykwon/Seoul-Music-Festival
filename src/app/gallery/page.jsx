@@ -48,12 +48,12 @@ const Gallery = () => {
     return (
         <div>
             <Header />
-            <div className='min-h-screen flex items-center justify-center p-5'>
+            <div className='min-h-screen max-w-screen-xl mx-auto px-4 flex-col items-center justify-center p-5'>
                 {/* 버튼들 */}
                 <div className='mt-12 pt-4'>
                     <strong className='ml-[20px] text-3xl font-bold animate-slide-up text-violet-900'>갤러리</strong>
                     <div className='flex-col mt-10'>
-                        <div className='mt-10 flex gap-4'>
+                        <div className='mt-10 mb-10 flex gap-4'>
                             <button
                                 onClick={() => handleButtonClick(2024)}
                                 className={`relative px-6 py-2 font-semibold rounded-lg transition duration-300 group
