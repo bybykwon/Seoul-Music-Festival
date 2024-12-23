@@ -21,3 +21,4 @@ Parallax Scrolling 이란?
 -   배경(3 Depth)을 제외한 제작에 사용한 사진 등 이미지의 저작권은 서울특별시에 있습니다. 
 출처 : https://seoulmusicfestival.co.kr
 https://www.seoul.go.kr/seoul/brand.do
+공공누리 제4유형(출처표시 + 상업적 이용금지 + 변경금지)
