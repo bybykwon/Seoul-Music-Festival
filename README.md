@@ -13,7 +13,7 @@ Parallax Scrolling 이란?
 -   javascript, css, 라이브러리 등을 이용하여 구현
 
 ## GSAP 사용을 위한 레이어 분리
-![gsap-index2p](https://github.com/user-attachments/assets/5569badf-48ea-4de9-85a3-31a833742112)
+![gsap-index2p](https://github.com/user-attachments/assets/9d112c4b-7ba8-41ed-8d11-4a35fdfe8ea5)
 -   장면 구성에 필요한 부분을 포토샵을 이용해 레이어를 분리해 제작 했습니다.
   
 ![image](https://github.com/user-attachments/assets/d1220c41-28d3-4bca-a17f-73ea4a101b01)
