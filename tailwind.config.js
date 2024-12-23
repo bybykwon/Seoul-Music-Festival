@@ -26,9 +26,9 @@ module.exports = {
             },
             animation: {
                 'slide-up-down': 'slideUpDown 2s ease-in-out infinite',
-                'slide-up': 'slideUp 2s ease-in-out',
+                'slide-up': 'slideUp 1s ease-in-out',
                 'scale-down': 'scaleDown 5s ease-in-out',
-                'scale-up': 'scaleUp 5s ease-in-out',
+                'scale-up': 'scaleUp 3s ease-in-out',
             },
             keyframes: {
                 slideUpDown: {
@@ -47,6 +47,10 @@ module.exports = {
                 scaleUp: {
                     '0%': { transform: 'scale(1)' },
                     '100%': { transform: 'scale(1.2)' },
+                },
+                screens: {
+                    xs: '480px', // 새로운 브레이크포인트 추가
+                    ssl: '500px', // 더 큰 브레이크포인트
                 },
             },
         },

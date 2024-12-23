@@ -17,8 +17,8 @@ const Home = () => {
             <IntroSwiper title='Programs' />
             <News
                 mockNews={mockNews}
-                title='보도자료'
-                class='flex items-center text-center'
+                title={<span className='text-3xl font-semibold tracking-tight text-gray-900'>NEWS</span>}
+                class='flex items-center text-center animate-on-scroll opacity-0 translate-y-10 transition-all duration-700'
             />
         </>
     );

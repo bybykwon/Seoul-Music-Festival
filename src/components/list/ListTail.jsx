@@ -4,7 +4,7 @@ import React from 'react';
 
 const ListTail = ({ mockNews }) => {
     return (
-        <ul className='grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10'>
+        <ul className='text-left grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10'>
             {mockNews.map((news, index) => (
                 <li key={index}>
                     <Link href={`/news/${news.id}`}>

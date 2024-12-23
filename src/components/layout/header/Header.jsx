@@ -12,8 +12,8 @@ import { Link } from 'react-router-dom';
 const navigation = [
     { name: 'SMF 소개', href: '/introduce' },
     { name: '라인업', href: '/lineup' },
-    { name: '프로그램', href: '#' },
-    { name: '갤러리', href: '#' },
+    { name: '프로그램', href: '/program' },
+    { name: '갤러리', href: '/gallery' },
 ];
 
 const Header = ({ type = 'type1', title, sharing, prev }) => {
@@ -34,10 +34,10 @@ const Header = ({ type = 'type1', title, sharing, prev }) => {
                         >
                             <h1 className='flex lg:flex-1'>
                                 <a
-                                    href='#'
+                                    href='/'
                                     className='-m-1.5 p-1.5'
                                 >
-                                    <span className='sr-only'>Your Company</span>
+                                    <span className='sr-only'>Seoul official</span>
                                     <Image
                                         alt=''
                                         src='/images/pattern/common/logo.png'
