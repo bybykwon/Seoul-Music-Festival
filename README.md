@@ -6,13 +6,17 @@
 ## GSAP(자바스크립트 라이브러리)을 이용한 Parallax Scrolling 애니메이션 적용
 
 ![Parallax](https://github.com/user-attachments/assets/1393ea5d-d64f-4f5f-a761-143c073c065e)
+Parallax Scrolling 이란?
 
 -   레이어별 스크롤 속도를 다르게 하여 입체감을 주는 디자인 기법
 -   게임, 애니메이션 등에서 주로 사용되던 기법으로 인터랙티브한 웹사이트를 만들 때 사용
-    javascript, css, 라이브러리 등을 이용하여 구현
+-   javascript, css, 라이브러리 등을 이용하여 구현
 
 ## GSAP 사용을 위한 레이어 분리
 
 ![gsap-index2p](https://github.com/user-attachments/assets/95c77d34-f2b4-4355-94e7-a8c6b2c73bdd)
 
-장면 구성에 필요한 부분은 포토샵을 이용해 제작 했습니다. 제작에 사용한 이미지의 저작권은 서울시에 있습니다.
+-   장면 구성에 필요한 부분을 래퍼런스 포스터에서 포토샵을 이용해 레이어를 분리해 제작 했습니다.
+
+-   3단계로 나눠 깊이감을 주고 스크롤링 속도를 다르게 코딩 하였습니다.
+-   배경(3 Depth)을 제외한 제작에 사용한 사진 등 이미지의 저작권은 서울특별시에 있습니다.

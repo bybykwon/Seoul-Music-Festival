@@ -7,15 +7,13 @@ import '@/styles/gsap.scss';
 import '@/styles/globals.scss';
 import { TweenMax } from 'gsap/gsap-core';
 
-//스크롤 y값 변경, 시간차로 입체감 효과
 const Hero = () => {
     const [clientWidth, setClientWidth] = useState(0);
 
     useEffect(() => {
-        // 컴포넌트가 마운트된 이후에 clientWidth 초기화
         const handleResize = () => setClientWidth(window.innerWidth);
 
-        handleResize(); // 초기값 설정
+        handleResize();
         window.addEventListener('resize', handleResize);
 
         return () => {
@@ -37,8 +35,8 @@ const Hero = () => {
 
                 gsap.to('.cityback', { y: scrollY * -0.1 });
                 gsap.to('.green_right', { y: scrollY * -0.2 });
-
                 gsap.to('.green_left', { y: scrollY * -0.3 });
+
                 gsap.to('.cat', { y: scrollY * -0.3 });
                 gsap.to('.cat2', { y: scrollY * -0.3 });
                 gsap.to('.blue02', { y: scrollY * -0.3 });
@@ -56,8 +54,6 @@ const Hero = () => {
                 gsap.to('.cat', { y: scrollY * -0.07 });
                 gsap.to('.cat2', { y: scrollY * -0.07 });
                 gsap.to('.blue02', { y: scrollY * -0.09 });
-                // gsap.to('.main_title .text', { y: scrollY * 0.3 });
-                // gsap.to('.main_title .explore', { y: scrollY * 0.3 });
             }
         };
 
