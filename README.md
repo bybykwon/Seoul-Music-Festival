@@ -1,6 +1,6 @@
 ## 서울 뮤직 페스티벌 반응형 웹페이지 제작
 
-![gsap-index1p](https://github.com/user-attachments/assets/071ae689-eb2b-48e6-b34c-d2f9b57959b5)
+![gsap-index1p](https://github.com/user-attachments/assets/6ed5dced-296c-480c-9385-8e34a4eee51f)
 서울 뮤직 페스티벌 홍보를 위한 반응형 웹페이지입니다.
 
 ## GSAP(자바스크립트 라이브러리)을 이용한 Parallax Scrolling 애니메이션 적용
@@ -14,8 +14,7 @@ Parallax Scrolling 이란?
 
 ## GSAP 사용을 위한 레이어 분리
 
-![gsap-index2p](https://github.com/user-attachments/assets/95c77d34-f2b4-4355-94e7-a8c6b2c73bdd)
-
+![gsap-index2p](https://github.com/user-attachments/assets/64ede396-c525-478e-a5de-58ab7d22aee8)
 -   장면 구성에 필요한 부분을 래퍼런스 포스터에서 포토샵을 이용해 레이어를 분리해 제작 했습니다.
 
 -   3단계로 나눠 깊이감을 주고 스크롤링 속도를 다르게 코딩 하였습니다.
