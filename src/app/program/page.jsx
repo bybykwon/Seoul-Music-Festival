@@ -60,7 +60,7 @@ const Program = () => {
                     </div>
                 </div>
                 {/* 전환되는 콘텐츠 */}
-                <div className='mt-6 p-4 w-full max-w-3xl bg-white rounded-lg'>
+                <div className='mt-6 p-4 w-full bg-white rounded-lg'>
                     {activeContent === 1 && (
                         <div>
                             {/* 9.27 FRI에 해당하는 콘텐츠 */}
@@ -78,21 +78,29 @@ const Program = () => {
                                     height: 300,
                                 }}
                             />
+                            <ProgramBox
+                                image1={{
+                                    url: '/images/components/programbox/tab01_img02.png',
+                                    description: '첫 번째 이미지 설명',
+                                    width: 400,
+                                    height: 300,
+                                }}
+                                image2={{
+                                    url: '/images/components/programbox/tab01_txt01.png',
+                                    description: '두 번째 이미지 설명',
+                                    width: 400,
+                                    height: 300,
+                                }}
+                            />
                             {/* 추가적인 ProgramBox 컴포넌트들 */}
                         </div>
                     )}
                     {activeContent === 2 && (
                         <div>
                             {/* 9.28 SAT에 해당하는 콘텐츠 */}
-                            {/* 나중에 추가 예정 */}
-                        </div>
-                    )}
-                    {activeContent === 3 && (
-                        <div>
-                            {/* 9.29 SUN에 해당하는 콘텐츠 */}
                             <ProgramBox
                                 image1={{
-                                    url: '/images/components/programbox/tab01_img01.png',
+                                    url: '/images/components/programbox/tab01_img03.png',
                                     description: '첫 번째 이미지 설명',
                                     width: 400,
                                     height: 300,
@@ -106,7 +114,41 @@ const Program = () => {
                             />
                             <ProgramBox
                                 image1={{
-                                    url: '/images/components/programbox/tab01_img01.png',
+                                    url: '/images/components/programbox/tab01_img04.png',
+                                    description: '첫 번째 이미지 설명',
+                                    width: 400,
+                                    height: 300,
+                                }}
+                                image2={{
+                                    url: '/images/components/programbox/tab01_txt01.png',
+                                    description: '두 번째 이미지 설명',
+                                    width: 400,
+                                    height: 300,
+                                }}
+                            />
+                            {/* 나중에 추가 예정 */}
+                        </div>
+                    )}
+                    {activeContent === 3 && (
+                        <div>
+                            {/* 9.29 SUN에 해당하는 콘텐츠 */}
+                            <ProgramBox
+                                image1={{
+                                    url: '/images/components/programbox/tab01_img05.png',
+                                    description: '첫 번째 이미지 설명',
+                                    width: 400,
+                                    height: 300,
+                                }}
+                                image2={{
+                                    url: '/images/components/programbox/tab01_txt01.png',
+                                    description: '두 번째 이미지 설명',
+                                    width: 400,
+                                    height: 300,
+                                }}
+                            />
+                            <ProgramBox
+                                image1={{
+                                    url: '/images/components/programbox/tab01_img06.png',
                                     description: '첫 번째 이미지 설명',
                                     width: 400,
                                     height: 300,
