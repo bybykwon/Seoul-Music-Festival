@@ -34,7 +34,7 @@ const Header = ({ type = 'type1', title, sharing, prev }) => {
                         >
                             <h1 className='flex lg:flex-1'>
                                 <a
-                                    href='/'
+                                    href='#'
                                     className='-m-1.5 p-1.5'
                                 >
                                     <span className='sr-only'>Seoul official</span>
