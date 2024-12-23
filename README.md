@@ -18,7 +18,8 @@ Parallax Scrolling 이란?
   
 ![image](https://github.com/user-attachments/assets/d1220c41-28d3-4bca-a17f-73ea4a101b01)
 -   GSAP을 사용해 레이어 요소들의 움직임과 스크롤링 속도를 각각 다르게 적용했습니다.
--   배경(3 Depth)을 제외한 제작에 사용한 사진 등 이미지의 저작권은 서울특별시에 있습니다. 
+-   배경(3 Depth)을 제외한 페이지 제작에 사용한 로고, 사진 등 이미지의 저작권은 서울특별시에 있습니다. 
 출처 : https://seoulmusicfestival.co.kr
 https://www.seoul.go.kr/seoul/brand.do
 공공누리 제4유형(출처표시 + 상업적 이용금지 + 변경금지)
+
