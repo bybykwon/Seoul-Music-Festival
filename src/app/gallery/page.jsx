@@ -26,32 +26,22 @@ const Gallery = () => {
         2023: [
             { url: '/images/components/gallery/2023/img1.jpg', description: '2023 이미지 1', width: 400, height: 300 },
             { url: '/images/components/gallery/2023/img2.jpg', description: '2023 이미지 2', width: 400, height: 300 },
-            { url: '/images/components/gallery/2023/img3.jpg', description: '2023 이미지 3', width: 400, height: 300 },
-            { url: '/images/components/gallery/2023/img4.jpg', description: '2023 이미지 4', width: 400, height: 300 },
-            { url: '/images/components/gallery/2023/img5.jpg', description: '2023 이미지 5', width: 400, height: 300 },
-            { url: '/images/components/gallery/2023/img6.jpg', description: '2023 이미지 6', width: 400, height: 300 },
-            { url: '/images/components/gallery/2023/img7.jpg', description: '2023 이미지 7', width: 400, height: 300 },
-            { url: '/images/components/gallery/2023/img8.jpg', description: '2023 이미지 8', width: 400, height: 300 },
         ],
         2022: [
             { url: '/images/components/gallery/2022/img1.jpg', description: '2022 이미지 1', width: 400, height: 300 },
             { url: '/images/components/gallery/2022/img2.jpg', description: '2022 이미지 2', width: 400, height: 300 },
             { url: '/images/components/gallery/2022/img3.jpg', description: '2022 이미지 3', width: 400, height: 300 },
             { url: '/images/components/gallery/2022/img4.jpg', description: '2022 이미지 4', width: 400, height: 300 },
-            { url: '/images/components/gallery/2022/img5.jpg', description: '2022 이미지 5', width: 400, height: 300 },
-            { url: '/images/components/gallery/2022/img6.jpg', description: '2022 이미지 6', width: 400, height: 300 },
-            { url: '/images/components/gallery/2022/img7.jpg', description: '2022 이미지 7', width: 400, height: 300 },
-            { url: '/images/components/gallery/2022/img8.jpg', description: '2022 이미지 8', width: 400, height: 300 },
         ],
-        2021: [
-            { url: '/images/components/gallery/2021/img1.jpg', description: '2021 이미지 1', width: 400, height: 300 },
-            { url: '/images/components/gallery/2021/img2.jpg', description: '2021 이미지 2', width: 400, height: 300 },
-            { url: '/images/components/gallery/2021/img3.jpg', description: '2021 이미지 3', width: 400, height: 300 },
-            { url: '/images/components/gallery/2021/img4.jpg', description: '2021 이미지 4', width: 400, height: 300 },
-            { url: '/images/components/gallery/2021/img5.jpg', description: '2021 이미지 5', width: 400, height: 300 },
-            { url: '/images/components/gallery/2021/img6.jpg', description: '2021 이미지 6', width: 400, height: 300 },
-            { url: '/images/components/gallery/2021/img7.jpg', description: '2021 이미지 7', width: 400, height: 300 },
-            { url: '/images/components/gallery/2021/img8.jpg', description: '2021 이미지 8', width: 400, height: 300 },
+        2019: [
+            { url: '/images/components/gallery/2019/img1.jpg', description: '2019 이미지 1', width: 400, height: 300 },
+            { url: '/images/components/gallery/2019/img2.jpg', description: '2019 이미지 2', width: 400, height: 300 },
+            { url: '/images/components/gallery/2019/img3.jpg', description: '2019 이미지 3', width: 400, height: 300 },
+            { url: '/images/components/gallery/2019/img4.jpg', description: '2019 이미지 4', width: 400, height: 300 },
+            { url: '/images/components/gallery/2019/img5.jpg', description: '2019 이미지 5', width: 400, height: 300 },
+            { url: '/images/components/gallery/2019/img6.jpg', description: '2019 이미지 6', width: 400, height: 300 },
+            { url: '/images/components/gallery/2019/img7.jpg', description: '2019 이미지 7', width: 400, height: 300 },
+            { url: '/images/components/gallery/2019/img8.jpg', description: '2019 이미지 8', width: 400, height: 300 },
         ],
     };
 
@@ -101,14 +91,14 @@ const Gallery = () => {
                                 ></span>
                             </button>
                             <button
-                                onClick={() => handleButtonClick(2021)}
+                                onClick={() => handleButtonClick(2019)}
                                 className={`relative px-6 py-2 font-semibold rounded-lg transition duration-300 group
-                                    ${activeContent === 2021 ? 'text-black' : 'text-gray-500'}`}
+                                    ${activeContent === 2019 ? 'text-black' : 'text-gray-500'}`}
                             >
-                                2021
+                                2019
                                 <span
                                     className={`absolute bottom-0 left-0 w-full h-[2px] bg-black transition-all duration-300 transform 
-                                        ${activeContent === 2021 ? 'scale-x-100' : 'scale-x-0'}
+                                        ${activeContent === 2019 ? 'scale-x-100' : 'scale-x-0'}
                                         origin-left group-hover:scale-x-100`}
                                 ></span>
                             </button>
