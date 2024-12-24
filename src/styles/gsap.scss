@@ -350,16 +350,32 @@
     .people {
         z-index: 4;
         position: absolute;
-        scale: 1.5;
+        scale: 1.6;
         right: 30vw;
         bottom: 8rem;
     }
     .people2 {
         z-index: 4;
         position: absolute;
-        scale: 1.5;
+        scale: 1.6;
         right: 25vw;
         bottom: 8rem;
+    }
+    @media (max-width: 1300px) {
+        .people {
+            z-index: 4;
+            position: absolute;
+            scale: 1.3;
+            right: 2.25rem;
+            bottom: 3rem;
+        }
+        .people2 {
+            z-index: 4;
+            position: absolute;
+            scale: 1.3;
+            right: 1.625rem;
+            bottom: 2.5rem;
+        }
     }
     @media (max-width: 680px) {
         .people {
@@ -401,6 +417,15 @@
             left: 0%;
             top: -100%;
         }
+        @media (max-width: 1550px) {
+            .cityback {
+                width: 100%;
+                position: absolute;
+                z-index: -1;
+                left: 0%;
+                top: -90%;
+            }
+        }
     }
     @media (max-width: 1400px) {
         .cityback {
@@ -408,7 +433,7 @@
             position: absolute;
             z-index: -1;
             left: 0%;
-            top: -90%;
+            top: -80%;
         }
     }
     @media (max-width: 1300px) {
