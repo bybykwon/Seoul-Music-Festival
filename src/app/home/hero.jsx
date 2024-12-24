@@ -37,8 +37,8 @@ const Hero = () => {
                 gsap.to('.green_right', { y: scrollY * -0.2 });
                 gsap.to('.green_left', { y: scrollY * -0.3 });
 
-                gsap.to('.cat', { y: scrollY * -0.3 });
-                gsap.to('.cat2', { y: scrollY * -0.3 });
+                gsap.to('.people', { y: scrollY * -0.3 });
+                gsap.to('.people2', { y: scrollY * -0.3 });
                 gsap.to('.blue02', { y: scrollY * -0.3 });
             } else if (clientWidth > 300) {
                 gsap.to('.night', { y: scrollY * 0.6 });
@@ -51,8 +51,8 @@ const Hero = () => {
                 gsap.to('.green_right', { y: scrollY * -0.07 });
                 gsap.to('.green_left', { y: scrollY * -0.07 });
 
-                gsap.to('.cat', { y: scrollY * -0.07 });
-                gsap.to('.cat2', { y: scrollY * -0.07 });
+                gsap.to('.people', { y: scrollY * -0.07 });
+                gsap.to('.people2', { y: scrollY * -0.07 });
                 gsap.to('.blue02', { y: scrollY * -0.09 });
             }
         };
@@ -110,8 +110,8 @@ const Hero = () => {
         });
         tl.from('.main_title .text', { duration: 3, y: 30, repeat: -1, yoyo: true, ease: 'linear' }, '-=2');
         tl.from('.main_title .explore', { y: 30, opacity: 0 });
-        tl.from('.cat', { rotation: -3, repeat: -1, yoyo: true, ease: 'linear' }, 1);
-        tl.from('.cat2', { rotation: 5, repeat: -1, yoyo: true, ease: 'linear' }, 1);
+        tl.from('.people', { rotation: -3, repeat: -1, yoyo: true, ease: 'linear' }, 1);
+        tl.from('.people2', { rotation: 5, repeat: -1, yoyo: true, ease: 'linear' }, 1);
         tl.fromTo(
             '.cloud-small',
             { y: 430, scale: 0.1, opacity: 0 },
@@ -279,7 +279,7 @@ const Hero = () => {
                             height={768}
                         />
                     </div>
-                    <div className='cat'>
+                    <div className='people'>
                         <Image
                             src='/images/story/top/people.png'
                             alt=''
@@ -287,7 +287,7 @@ const Hero = () => {
                             height={200}
                         />
                     </div>
-                    <div className='cat2'>
+                    <div className='people2'>
                         <Image
                             src='/images/story/top/people2.png'
                             alt=''

@@ -279,14 +279,14 @@
         }
     }
 
-    .cat {
+    .people {
         z-index: 4;
         position: absolute;
         scale: 1.5;
         right: 30vw;
         bottom: 8rem;
     }
-    .cat2 {
+    .people2 {
         z-index: 4;
         position: absolute;
         scale: 1.5;
@@ -294,14 +294,14 @@
         bottom: 8rem;
     }
     @media (max-width: 680px) {
-        .cat {
+        .people {
             z-index: 4;
             position: absolute;
             scale: 1;
             right: 1.25rem;
             bottom: 1.25rem;
         }
-        .cat2 {
+        .people2 {
             z-index: 4;
             position: absolute;
             scale: 1;
