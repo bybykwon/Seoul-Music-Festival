@@ -54,6 +54,20 @@ const Hero = () => {
                 gsap.to('.people', { y: scrollY * -0.07 });
                 gsap.to('.people2', { y: scrollY * -0.07 });
                 gsap.to('.blue02', { y: scrollY * -0.09 });
+            } else if (clientWidth > 300) {
+                gsap.to('.night', { y: scrollY * 0.6 });
+                gsap.to('.nightstar', { y: scrollY * 0.4 });
+                gsap.to('.moon', { y: scrollY * 0.15 });
+                gsap.to('.skycloud1', { y: scrollY * 0.05 });
+                gsap.to('.skycloud2', { y: scrollY * 0.05 });
+                gsap.to('.skycloud3', { y: scrollY * 0.05 });
+
+                gsap.to('.green_right', { y: scrollY * -0.07 });
+                gsap.to('.green_left', { y: scrollY * -0.07 });
+
+                gsap.to('.people', { y: scrollY * -0.07 });
+                gsap.to('.people2', { y: scrollY * -0.07 });
+                gsap.to('.blue02', { y: scrollY * -0.09 });
             }
         };
 

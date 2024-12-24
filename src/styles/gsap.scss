@@ -96,6 +96,15 @@
     left: 15%;
     z-index: -3;
 }
+@media (max-width: 900px) {
+    .moon {
+        position: absolute;
+
+        left: 2%;
+        top: 5%;
+        z-index: -3;
+    }
+}
 @media (max-width: 680px) {
     .moon {
         position: absolute;
@@ -114,6 +123,14 @@
     left: 20%;
     z-index: -3;
 }
+@media (max-width: 900px) {
+    .skycloud1 {
+        position: absolute;
+        top: 15%;
+        left: 3%;
+        z-index: -3;
+    }
+}
 @media (max-width: 680px) {
     .skycloud1 {
         position: absolute;
@@ -130,6 +147,15 @@
     top: -34%;
     left: 20%;
     z-index: -3;
+}
+@media (max-width: 900px) {
+    .skycloud2 {
+        position: absolute;
+        width: 100%;
+        top: 10%;
+        left: 3%;
+        z-index: -3;
+    }
 }
 @media (max-width: 680px) {
     .skycloud2 {
@@ -148,6 +174,15 @@
     left: 20%;
     z-index: -10;
 }
+@media (max-width: 900px) {
+    .skycloud3 {
+        position: absolute;
+        width: 100%;
+        top: 10%;
+        left: 3%;
+        z-index: -10;
+    }
+}
 @media (max-width: 680px) {
     .skycloud3 {
         position: absolute;
@@ -164,6 +199,15 @@
     top: -46%;
     left: 20%;
     z-index: -3;
+}
+@media (max-width: 900px) {
+    .mountain {
+        position: absolute;
+        width: 100%;
+        top: 2%;
+        z-index: -3;
+        left: 3%;
+    }
 }
 @media (max-width: 680px) {
     .mountain {
@@ -256,6 +300,16 @@
         bottom: -30%;
         z-index: 5;
     }
+
+    @media (max-width: 900px) {
+        .blue02 {
+            position: absolute;
+            left: 0%;
+            bottom: -10%;
+            z-index: 5;
+        }
+    }
+
     @media (max-width: 680px) {
         .blue02 {
             position: absolute;
@@ -271,6 +325,14 @@
         bottom: 0;
         top: 35%;
     }
+
+    @media (max-width: 900px) {
+        .green_left {
+            position: absolute;
+            left: 0;
+            top: 50%;
+        }
+    }
     @media (max-width: 680px) {
         .green_left {
             position: absolute;
@@ -278,7 +340,6 @@
             top: 75%;
         }
     }
-
     .people {
         z-index: 4;
         position: absolute;
@@ -324,6 +385,43 @@
         left: 0%;
         top: -130%;
     }
+
+    @media (max-width: 1700px) {
+        .cityback {
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+            left: 0%;
+            top: -100%;
+        }
+    }
+    @media (max-width: 1400px) {
+        .cityback {
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+            left: 0%;
+            top: -90%;
+        }
+    }
+    @media (max-width: 1200px) {
+        .cityback {
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+            left: 0%;
+            top: -60%;
+        }
+    }
+    @media (max-width: 900px) {
+        .cityback {
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+            left: 10%;
+            top: -18%;
+        }
+    }
     @media (max-width: 680px) {
         .cityback {
             width: 231%;
@@ -341,13 +439,19 @@
         bottom: 0px;
         top: 20%;
     }
+
+    @media (max-width: 900px) {
+        .green_right {
+            position: absolute;
+            top: 50%;
+        }
+    }
     @media (max-width: 680px) {
         .green_right {
             position: absolute;
             top: 75%;
         }
     }
-
     .main_title {
         position: absolute;
         left: 50%;
