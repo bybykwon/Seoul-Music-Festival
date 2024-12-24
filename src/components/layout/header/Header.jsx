@@ -7,7 +7,7 @@ import Navigation from './Navigation';
 import Image from 'next/image';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { Dialog, DialogPanel } from '@headlessui/react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const navigation = [
     { name: 'SMF 소개', href: '/introduce' },
@@ -33,8 +33,8 @@ const Header = ({ type = 'type1', title, sharing, prev }) => {
                             className='flex items-center justify-between lg:px-8 w-full'
                         >
                             <h1 className='flex lg:flex-1'>
-                                <a
-                                    href='#'
+                                <Link
+                                    href='/'
                                     className='-m-1.5 p-1.5'
                                 >
                                     <span className='sr-only'>Seoul official</span>
@@ -45,7 +45,7 @@ const Header = ({ type = 'type1', title, sharing, prev }) => {
                                         height={32}
                                         className='h-8 w-auto'
                                     />
-                                </a>
+                                </Link>
                             </h1>
                             <div className='flex lg:hidden'>
                                 <button
