@@ -53,7 +53,7 @@ const Gallery = () => {
                 <div className='mt-12 pt-4'>
                     <strong className='ml-[20px] text-3xl font-bold animate-slide-up text-violet-900'>갤러리</strong>
                     <div className='flex-col mt-10'>
-                        <div className='mt-10 mb-10 flex gap-4'>
+                        <div className='mt-10 mb-10 flex gap-0.5 md:gap-8'>
                             <button
                                 onClick={() => handleButtonClick(2024)}
                                 className={`relative px-6 py-2 font-semibold rounded-lg transition duration-300 group

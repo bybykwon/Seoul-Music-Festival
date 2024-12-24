@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Image from 'next/image';
 import { ArrowBigDown } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 class Program extends Component {
     render() {
