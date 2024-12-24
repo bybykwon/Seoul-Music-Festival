@@ -1,3 +1,6 @@
+'use client';
+
+import { CloseButton } from '@chakra-ui/react';
 import Image from 'next/image';
 
 export default function LoginPage() {
@@ -21,7 +24,7 @@ export default function LoginPage() {
                         height={40}
                     />
                     <h2 className='mt-6 text-center text-2xl/9 font-bold tracking-tight text-gray-900'>
-                        Sign in to your account
+                        계정 정보를 입력해 주세요
                     </h2>
                 </div>
 
@@ -37,7 +40,7 @@ export default function LoginPage() {
                                     htmlFor='email'
                                     className='block text-sm/6 font-medium text-gray-900'
                                 >
-                                    Email address
+                                    이메일 주소
                                 </label>
                                 <div className='mt-2'>
                                     <input
@@ -56,7 +59,7 @@ export default function LoginPage() {
                                     htmlFor='password'
                                     className='block text-sm/6 font-medium text-gray-900'
                                 >
-                                    Password
+                                    비밀번호
                                 </label>
                                 <div className='mt-2'>
                                     <input
@@ -69,7 +72,10 @@ export default function LoginPage() {
                                     />
                                 </div>
                             </div>
-
+                            <CloseButton
+                                className='absolute top-0 right-10 h-20 w-20 z-50'
+                                onClick={() => (window.location.href = '/')}
+                            />
                             <div className='flex items-center justify-between'>
                                 <div className='flex gap-3'>
                                     <div className='flex h-6 shrink-0 items-center'>
@@ -106,7 +112,7 @@ export default function LoginPage() {
                                         htmlFor='remember-me'
                                         className='block text-sm/6 text-gray-900'
                                     >
-                                        Remember me
+                                        아이디 기억하기
                                     </label>
                                 </div>
 
@@ -115,7 +121,7 @@ export default function LoginPage() {
                                         href='#'
                                         className='font-semibold text-indigo-600 hover:text-indigo-500'
                                     >
-                                        Forgot password?
+                                        비밀번호를 잊으셨나요?
                                     </a>
                                 </div>
                             </div>
@@ -125,7 +131,7 @@ export default function LoginPage() {
                                     type='submit'
                                     className='flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
                                 >
-                                    Sign in
+                                    로그인
                                 </button>
                             </div>
                         </form>
