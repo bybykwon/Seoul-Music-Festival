@@ -76,6 +76,7 @@ export default function IntroSwiper() {
                         speed={900}
                         modules={[Pagination, Navigation, Autoplay]}
                         className='mySwiper w-[400px] h-2/3'
+                        onClick={() => (window.location.href = '/lineup')}
                     >
                         {slides.map((slide, index) => (
                             <SwiperSlide key={index}>
