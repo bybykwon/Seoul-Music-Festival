@@ -126,14 +126,14 @@ export default function IntroSwiper() {
                     </div>
 
                     {/* 이미지 섹션 */}
-                    <div className='pt-[5rem] w-full h-auto max-w-[35vw] max-h-[35vh]'>
+                    <div className='pt-[9rem] w-full h-auto max-w-[35vw] max-h-[35vh]'>
                         <Image
                             src='/images/components/nodleisland2.png'
                             alt='nodle'
-                            className='w-full h-auto object-contain'
+                            className='w-full h-auto object-contain animate-slide-up-down'
                             width={500}
                             height={500}
-                            style={{ maxHeight: '25vh', maxWidth: '25vw' }}
+                            style={{ maxHeight: '22vh', maxWidth: '22vw' }}
                         />
                     </div>
                 </div>

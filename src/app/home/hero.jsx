@@ -48,7 +48,7 @@ const Hero = () => {
                 gsap.to('.skycloud2', { y: scrollY * 0.05 });
                 gsap.to('.skycloud3', { y: scrollY * 0.05 });
 
-                gsap.to('.green_right', { y: scrollY * -0.01 });
+                gsap.to('.green_right', { y: scrollY * -0.07 });
                 gsap.to('.green_left', { y: scrollY * -0.07 });
 
                 gsap.to('.cat', { y: scrollY * -0.07 });
