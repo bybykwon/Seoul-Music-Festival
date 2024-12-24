@@ -326,6 +326,13 @@
         top: 35%;
     }
 
+    @media (max-width: 1300px) {
+        .green_left {
+            position: absolute;
+            left: 0;
+            top: 60%;
+        }
+    }
     @media (max-width: 900px) {
         .green_left {
             position: absolute;
@@ -404,13 +411,31 @@
             top: -90%;
         }
     }
+    @media (max-width: 1300px) {
+        .cityback {
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+            left: 0%;
+            top: -50%;
+        }
+    }
     @media (max-width: 1200px) {
         .cityback {
             width: 100%;
             position: absolute;
             z-index: -1;
             left: 0%;
-            top: -60%;
+            top: -45%;
+        }
+    }
+    @media (max-width: 1100px) {
+        .cityback {
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+            left: 0%;
+            top: -30%;
         }
     }
     @media (max-width: 900px) {
@@ -440,7 +465,7 @@
         top: 20%;
     }
 
-    @media (max-width: 900px) {
+    @media (max-width: 1300px) {
         .green_right {
             position: absolute;
             top: 50%;
