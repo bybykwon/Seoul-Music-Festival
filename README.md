@@ -1,7 +1,7 @@
 ## 서울 뮤직 페스티벌 반응형 웹페이지 제작
 
 ![gsap-index1p](https://github.com/user-attachments/assets/6ed5dced-296c-480c-9385-8e34a4eee51f)
-서울 뮤직 페스티벌 홍보를 위한 반응형 웹페이지입니다.
+서울 뮤직 페스티벌 홍보를 위한 반응형 웹페이지입니다. 래퍼런스 포스터를 참고해 제작했습니다.
 
 ## GSAP(자바스크립트 라이브러리)을 이용한 Parallax Scrolling 애니메이션 적용
 
@@ -13,9 +13,13 @@ Parallax Scrolling 이란?
 -   javascript, css, 라이브러리 등을 이용하여 구현
 
 ## GSAP 사용을 위한 레이어 분리
+![gsap-index2p](https://github.com/user-attachments/assets/9d112c4b-7ba8-41ed-8d11-4a35fdfe8ea5)
+-   장면 구성에 필요한 부분을 포토샵을 이용해 레이어를 분리해 제작했습니다.
+  
+![image](https://github.com/user-attachments/assets/d1220c41-28d3-4bca-a17f-73ea4a101b01)
+-   GSAP을 사용해 레이어 요소들의 움직임과 스크롤링 속도를 각각 다르게 적용했습니다.
+-   배경(3 Depth)을 제외한 페이지 제작에 사용한 로고, 사진 등 이미지의 저작권은 서울특별시에 있습니다. 
+-   출처 : https://seoulmusicfestival.co.kr
+https://www.seoul.go.kr/seoul/brand.do
+공공누리 제4유형(출처표시 + 상업적 이용금지 + 변경금지)
 
-![gsap-index2p](https://github.com/user-attachments/assets/64ede396-c525-478e-a5de-58ab7d22aee8)
--   장면 구성에 필요한 부분을 래퍼런스 포스터에서 포토샵을 이용해 레이어를 분리해 제작 했습니다.
-
--   3단계로 나눠 깊이감을 주고 스크롤링 속도를 다르게 코딩 하였습니다.
--   배경(3 Depth)을 제외한 제작에 사용한 사진 등 이미지의 저작권은 서울특별시에 있습니다.
