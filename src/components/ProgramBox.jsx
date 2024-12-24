@@ -6,9 +6,9 @@ const ProgramBox = ({ image1, image2 }) => {
         <div className='max-w-[1440px] m-auto relative'>
             <div className='flex items-center justify-center mt-[60px] mb-[60px] box-border'>
                 {/* flex-col로 세로 배치, 중앙 정렬 */}
-                <div className='flex w-full mb-15 p-5 bg-gray-100 md:flex-row flex-col justify-center items-center gap-4 rounded-lg'>
+                <div className='flex w-full mb-15 p-5 bg-gray-100 flex-col sm:flex-row justify-center items-center gap-4 rounded-lg'>
                     {/* 첫 번째 이미지 */}
-                    <div className='w-1/2 pr-2'>
+                    <div className='w-full sm:w-1/2'>
                         <Image
                             src={image1.url}
                             alt={image1.description}
@@ -19,7 +19,7 @@ const ProgramBox = ({ image1, image2 }) => {
                         />
                     </div>
                     {/* 두 번째 이미지 */}
-                    <div className='w-1/2 pl-2'>
+                    <div className='w-full sm:w-1/2'>
                         <Image
                             src={image2.url}
                             alt={image2.description}
