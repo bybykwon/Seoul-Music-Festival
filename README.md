@@ -1,4 +1,5 @@
 ## 서울 뮤직 페스티벌 반응형 웹페이지 제작
+![gsap-index1p](https://github.com/user-attachments/assets/ae6a29f0-976c-4200-8648-0578ac640553)
 
 ![gsap-index1p](https://github.com/user-attachments/assets/6ed5dced-296c-480c-9385-8e34a4eee51f)
 서울 뮤직 페스티벌 홍보를 위한 반응형 웹페이지입니다. 래퍼런스 포스터를 참고해 제작했습니다.
