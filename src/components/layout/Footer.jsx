@@ -119,7 +119,7 @@ export default function Footer() {
                     ))}
                 </div>
                 <p className='mt-8 text-center text-sm/6 text-gray-600 md:order-1 md:mt-0'>
-                    &copy; 2025 권병윤, Inc. All rights reserved.
+                    &copy; Copyright 2025. 권병윤. All rights reserved.
                 </p>
             </div>
         </footer>
