@@ -21,6 +21,8 @@ module.exports = {
         },
         extend: {
             colors: {
+                maincolor: '#5b21b6',
+                subcolor: '#4c1d95',
                 background: 'var(--background)',
                 foreground: 'var(--foreground)',
             },

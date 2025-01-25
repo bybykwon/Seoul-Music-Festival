@@ -31,9 +31,7 @@ export default function Bento() {
     return (
         <div className='bg-gray-50 py-24 sm:py-32 flex'>
             <div className='mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8'>
-                <h2 className='text-center text-base/7 font-bold text-violet-900'>
-                    음악이 있어 더 매력적인 도시, 서울
-                </h2>
+                <h2 className='text-center text-base/7 font-bold text-subcolor'>음악이 있어 더 매력적인 도시, 서울</h2>
                 <p className='mx-auto mt-2 max-w-lg text-balance text-center text-3xl font-bold tracking-tight text-gray-900'>
                     2025 서울 뮤직페스티벌
                 </p>

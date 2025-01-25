@@ -51,7 +51,7 @@ const Gallery = () => {
             <div className='min-h-screen max-w-screen-xl mx-auto px-4 flex-col items-center justify-center p-5'>
                 {/* 버튼들 */}
                 <div className='mt-12 pt-4'>
-                    <strong className='ml-[20px] text-3xl font-bold animate-slide-up text-violet-900'>갤러리</strong>
+                    <strong className='ml-[20px] text-3xl font-bold animate-slide-up text-subcolor'>갤러리</strong>
                     <div className='flex-col mt-10'>
                         <div className='mt-10 mb-10 flex gap-0.5 md:gap-8'>
                             <button

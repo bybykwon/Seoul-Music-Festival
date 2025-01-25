@@ -27,9 +27,7 @@ const Lineup = () => {
 
                     {/* 버튼들 */}
                     <div className='mt-12 pt-4'>
-                        <strong className='ml-[20px] text-3xl font-bold animate-slide-up text-violet-900'>
-                            라인업
-                        </strong>
+                        <strong className='ml-[20px] text-3xl font-bold animate-slide-up text-subcolor'>라인업</strong>
                         <div className='flex-col mt-10'>
                             {' '}
                             <div className='mt-10 flex gap-4'>

@@ -17,7 +17,7 @@ const Introduce = () => {
                     height={600}
                     priority
                 />
-                <strong className='mb-4 text-3xl font-bold  text-violet-900 animate-slide-up '>
+                <strong className='mb-4 text-3xl font-bold  text-subcolor animate-slide-up '>
                     음악이 있어 매력적인 도시, 서울
                 </strong>
                 <p className='mb-2 text-lg font-light animate-slide-up'>

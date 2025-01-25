@@ -17,7 +17,7 @@ const Program = () => {
 
             <div className='max-w-screen-xl mx-auto px-4 flex-col items-center justify-center p-5'>
                 <div className='mt-12 pt-4'>
-                    <strong className='ml-[20px] text-3xl font-bold animate-slide-up text-violet-900'>프로그램</strong>
+                    <strong className='ml-[20px] text-3xl font-bold animate-slide-up text-subcolor'>프로그램</strong>
                     <div className='flex-col mt-10'>
                         <div className='mt-10 flex gap-4'>
                             <button
