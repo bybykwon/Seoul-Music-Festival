@@ -96,7 +96,7 @@ export default function Bento() {
                                     Culture City
                                 </p>
                                 <p className='mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center'>
-                                    시민과 함께 만드는 문화매력도시 서울을 보여줄 2024 서울 뮤직페스티벌
+                                    시민과 함께 만드는 문화매력도시 서울을 보여줄 2025 서울 뮤직페스티벌
                                 </p>
                             </div>
                             <div className='flex flex-1 items-center justify-center'>
